@@ -361,3 +361,13 @@ span.watch-later:hover .watch-later-text {
   right: 2rem;
   cursor: pointer;
 }
+
+/* ----------------------------------------Media Queries
+/* For mobile phones: */
+
+@media only screen and (max-width: 620px) {
+  .side-bar,
+  .main {
+    width: 100%;
+  }
+}
